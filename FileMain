@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Community</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #00bfff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        section h2 {
+            color: #00bfff;
+        }
+        .invite-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #00bfff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dragon Community</h1>
+        <p>A place for dragon enthusiasts to connect, chat, and share their passion.</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#rules">Rules</a>
+        <a href="#join">Join Us</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The Dragon Community is a vibrant Discord server for fans of dragons, fantasy, and more. Join us for fun discussions, events, and exclusive content!</p>
+    </section>
+    <section id="rules">
+        <h2>Community Rules</h2>
+        <ul>
+            <li>Be respectful to all members.</li>
+            <li>No spamming or inappropriate content.</li>
+            <li>Follow Discord's Terms of Service.</li>
+            <li>Have fun and share your love for dragons!</li>
+        </ul>
+    </section>
+    <section id="join">
+        <h2>Join the Community</h2>
+        <p>Click the button below to join our Discord server and become part of the Dragon Community!</p>
+        <a href="YOUR_DISCORD_INVITE_LINK" target="_blank" class="invite-btn">Join Now</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dragon Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
